@@ -1,0 +1,230 @@
+body {
+  color: #616161;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+/* body {
+  font-family: 'Ubuntu', sans-serif;
+  width:960px;
+} */
+
+/* p{
+  color:#525252;
+  font-size:12px;
+} */
+
+h1 {
+  line-height: 2;
+  margin:0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 58px;
+  color: black;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #d2ebe9;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 100px;
+  bottom: 500px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.mountain-img {
+  width: 100%;
+}
+
+.skill-row {
+  width: 90%;
+  margin: 100px 0 100px 0;
+  line-height: 2;
+  padding: 100px 50px 100px 50px;
+  position: center;
+}
+
+/* .whoAmI {
+  float: right;
+  margin-left: 50px;
+} */
+
+.skill-row2 {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+}
+
+/* .skills-img {
+  float: left;
+  margin-right: 50px;
+} */
+
+.education-img {
+  float: right;
+  margin-left: 50px;
+}
+
+.girl-pic {
+  padding-top: 40px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.intro2 {
+  width: 40%;
+}
+
+.whoami {
+  width: 40%;
+}
+
+.whoAmI {
+  float:right;
+}
+
+/* .skills {
+  padding-top: 30px;
+} */
+
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+	box-shadow: 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #52ebcc 5%, #0fa19a 100%);
+	background-color:#52ebcc;
+	border-radius:10px;
+	border:1px solid #e4e7f0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	padding:9px 25px;
+	text-decoration:none;
+	text-shadow:0px -1px 21px #a1aed1;
+  margin: 40px auto 40px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #0fa19a 5%, #52ebcc 100%);
+	background-color:#0fa19a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/*
+// Responsive My Skills Box Widget
+// Made with ❤ by @Pawan_Mall
+// http://www.pawanmall.net
+*/
+
+/* body { background: #E9E5E2;margin:2%; } */
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	transition:0.1s linear;
+	transition-property:width, background-color;
+}
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+}
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}

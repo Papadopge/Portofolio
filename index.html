@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Georgia P.</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+    jQuery(document).ready(function() {
+      jQuery('.skillbar').each(function() {
+        jQuery(this).find('.skillbar-bar').animate({
+          width: jQuery(this).attr('data-percent')
+        }, 4000);
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Georgia,</h1>
+    <h2>a Full-Stack Developer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img class="mountain-img" src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="girl-pic" src="georgia-profile.png" alt="my-profile-image">
+      <h2>Hello.</h2>
+      <p class="intro">My name is Georgia. I'm <strong>Front-end Developer</strong>.
+                       I have serious passion for UI effects,
+                       animations and creating intuitive, dynamic user experiences.
+      </p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <div class="skillbar clearfix " data-percent="85%">
+          <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+          <div class="skillbar-bar" style="background: #e67e22;"></div>
+          <div class="skill-bar-percent">85%</div>
+        </div>
+
+        <div class="skillbar clearfix " data-percent="70%">
+          <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+          <div class="skillbar-bar" style="background: #3498db;"></div>
+          <div class="skill-bar-percent">70%</div>
+        </div>
+
+        <div class="skillbar clearfix " data-percent="50%">
+          <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+          <div class="skillbar-bar" style="background: #2c3e50;"></div>
+          <div class="skill-bar-percent">50%</div>
+        </div>
+
+        <div class="skillbar clearfix " data-percent="40%">
+          <div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
+          <div class="skillbar-bar" style="background: #5a68a5;"></div>
+          <div class="skill-bar-percent">40%</div>
+        </div>
+
+        <div class="skillbar clearfix " data-percent="50%">
+          <div class="skillbar-title" style="background: #333333;"><span>Angular</span></div>
+          <div class="skillbar-bar" style="background: #525252;"></div>
+          <div class="skill-bar-percent">50%</div>
+        </div>
+
+        <div class="skillbar clearfix " data-percent="35%">
+          <div class="skillbar-title" style="background: #27ae60;"><span>React</span></div>
+          <div class="skillbar-bar" style="background: #2ecc71;"></div>
+          <div class="skill-bar-percent">35%</div>
+        </div>
+      </div>
+  </div>
+  <hr>
+  <div class="Projects">
+    <h2>Projects</h3>
+    <p></p>
+  </div>
+  <hr>
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>Contact me now.</h3>
+    <p class="contact-msg">Have a question or want to work together?</p>
+    <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+  </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2020 Georgia Papadopoulou.</p>
+  </div>
+</body>
+
+</html>
